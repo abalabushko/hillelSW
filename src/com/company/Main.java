@@ -14,6 +14,7 @@ public class Main {
         int minElemAndIndex = Task3.getMinElement(array);
         double average = Task4.getAverage(array);
         int countValue = Task5.getIndexElementValue(array,value);
+        int countElementsEqualsZero = Task6.countElementEqualZero(array);
         int countElements = Task7.countElement(array);
 
         System.out.println("Array sum " + sum);
@@ -21,6 +22,7 @@ public class Main {
         System.out.println("Min element and index " + minElemAndIndex);
         System.out.println("Average " + average);
         System.out.println("Preset value " + countValue);
+        System.out.println("count zero " + countElementsEqualsZero);
         System.out.println("count " + countElements);
 
     }
