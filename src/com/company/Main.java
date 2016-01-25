@@ -14,7 +14,7 @@ public class Main {
         int minElemAndIndex = Task3.getMinElement(array);
         double average = Task4.getAverage(array);
         int countValue = Task5.getIndexElementValue(array,value);
-        int countElements = Task6.countElement(array);
+        int countElements = Task7.countElement(array);
 
         System.out.println("Array sum " + sum);
         System.out.println("Max element and index " + maxElemAndIndex);
